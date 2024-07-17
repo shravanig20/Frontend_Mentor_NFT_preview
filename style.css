@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    /* background-color: rgb(6, 6, 52); */
+}
+
+.container{
+    
+   background-color: hsl(216, 50%, 16%); 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%); 
+}
+
+.cube{
+
+    height: 300px;
+    padding: 15px;
+    border-radius: 50px;
+}
+.cube:hover{
+    transition: 0.5s;
+    opacity: 0.3;
+}
+
+.container h1{
+
+    color: white;
+    padding-left: 18px;
+}
+
+.container p{
+
+    color:hsl(215, 51%, 70%) ;
+    padding-left: 18px;
+    margin-bottom: 25px;
+}
+
+.oneline{
+    display :flex ;
+    margin-bottom: 30px;
+}
+
+.eth{
+    margin-right: 105px;
+    padding-left: 20px;
+    color: cyan;
+}
+
+.time{
+    color:hsl(215, 51%, 70%);
+}
+
+.container .line hr{
+    border:none ;
+    height: 1px;
+    background-color: hsl(215, 51%, 70%);
+    
+    
+}
+
+.jules{
+
+    display: flex;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.avatar{
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.creation{
+    color: white;
+}
+
+.creation .blue-text{
+    color: hsl(215, 51%, 70%);
+}
